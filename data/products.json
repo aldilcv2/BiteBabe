@@ -1,0 +1,67 @@
+[
+  {
+    "id": "prod_1",
+    "name": "Classic Choco",
+    "price": 35000,
+    "description": "Original soft cookie with premium belgian dark chocolate chunks.",
+    "stock": 20,
+    "max_order": 10,
+    "category": "Best Seller",
+    "image": "assets/products/cookie1.png",
+    "toppings": [
+      "top_1",
+      "top_2",
+      "top_3",
+      "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14"
+    ]
+  },
+  {
+    "id": "prod_2",
+    "name": "Red Velvet",
+    "price": 38000,
+    "description": "Red velvet dough with white chocolate filling.",
+    "stock": 15,
+    "max_order": 5,
+    "category": "Special",
+    "image": "assets/products/cookie2.png",
+    "toppings": [
+      "top_1",
+      "top_2",
+      "top_3",
+      "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14"
+    ]
+  },
+  {
+    "id": "prod_3",
+    "name": "Matcha Toi",
+    "price": 10000.0,
+    "description": "Premium matcha cookie with white chocolate chunks.",
+    "stock": 18,
+    "max_order": 8,
+    "category": "Premium",
+    "image": "assets/products/cookie3.png",
+    "toppings": [
+      "top_1",
+      "top_2",
+      "top_3",
+      "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14"
+    ]
+  },
+  {
+    "id": "42284689-deaa-4d72-a767-d19dfbc7b536",
+    "name": "Coklat Fantasy",
+    "price": 10000.0,
+    "description": "dfdsfsdf",
+    "stock": 10,
+    "max_order": 1,
+    "category": "Reguler",
+    "image": "",
+    "toppings": [
+      "top_1",
+      "top_2",
+      "top_3",
+      "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14",
+      "489a48f2-c363-4843-aadc-6a74abf1d138"
+    ]
+  }
+]

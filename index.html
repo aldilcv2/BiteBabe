@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteBabe Soft Cookies</title>
+    <meta name="description" content="Softness in every bite. Premium soft cookies homemade.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="BiteBabe Logo" class="nav-logo" id="navLogo">
+                <span class="brand-name">BiteBabe</span>
+            </div>
+            <div class="nav-links">
+                <a href="#products">Menu</a>
+                <a href="#about">About</a>
+                <div class="cart-icon-wrapper" onclick="toggleCart()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Softness in Every Bite</h1>
+            <p class="hero-subtitle">Premium homemade soft cookies with belgian chocolate.</p>
+            <a href="#products" class="btn btn-primary">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-decoration"></div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be rendered here -->
+                <div class="loading-spinner">Loading delicious cookies...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay">
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-cart" onclick="toggleCart()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be rendered here -->
+                <div class="empty-cart">Your cart is empty.</div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">Rp 0</span>
+                </div>
+                <div class="checkout-form">
+                    <h4>Checkout Details</h4>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="customerName" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Address</label>
+                        <textarea id="customerAddress" placeholder="Delivery Address"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Payment Method</label>
+                        <select id="paymentMethod">
+                            <option value="Transfer">Bank Transfer</option>
+                            <option value="COD">Cash on Delivery (COD)</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary btn-block" onclick="checkoutWhatsApp()">
+                        <i class="fa-brands fa-whatsapp"></i> Checkout via WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 BiteBabe Soft Cookies. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "top_1",
+    "name": "Choco Chips",
+    "price": 5000
+  },
+  {
+    "id": "top_2",
+    "name": "Almond Slice",
+    "price": 6000
+  },
+  {
+    "id": "top_3",
+    "name": "Cheese Grated",
+    "price": 5000
+  },
+  {
+    "id": "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14",
+    "name": "Grnula salt",
+    "price": 4000.0
+  },
+  {
+    "id": "489a48f2-c363-4843-aadc-6a74abf1d138",
+    "name": "Stobery utuh",
+    "price": 5000.0
+  }
+]
