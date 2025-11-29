@@ -63,5 +63,33 @@
       "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14",
       "489a48f2-c363-4843-aadc-6a74abf1d138"
     ]
+  },
+  {
+    "id": "4c793ea2-9cf6-4146-a8a6-37a1ee4bf4bd",
+    "name": "Oreo Matcha",
+    "price": 12000.0,
+    "description": "",
+    "stock": 10,
+    "max_order": 5,
+    "category": "",
+    "image": "assets/products/prod_62108_Foto1.png",
+    "toppings": [
+      "top_1",
+      "top_2",
+      "top_3",
+      "1bc7e06d-35fb-4ef1-8260-c2bd2af90d14",
+      "489a48f2-c363-4843-aadc-6a74abf1d138"
+    ]
+  },
+  {
+    "id": "29041512-84d6-4eac-86f8-09922a010302",
+    "name": "",
+    "price": 0.0,
+    "description": "",
+    "stock": 10,
+    "max_order": 5,
+    "category": "",
+    "image": "",
+    "toppings": []
   }
 ]
